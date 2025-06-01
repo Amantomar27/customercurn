@@ -262,7 +262,7 @@ def create_visualizations(df):
     col1, col2 = st.columns(2)
     
     with col1:
-        st.subheader("📊 Churn Distribution")
+        st.subheader("📊 Churn Distribution 1")
         churn_counts = df['Churn'].value_counts()
         fig = px.pie(values=churn_counts.values, names=churn_counts.index, 
                      color_discrete_sequence=['#2E86AB', '#A23B72'])
