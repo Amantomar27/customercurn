@@ -553,8 +553,8 @@ def main():
         
         with col1:
             st.markdown("""
-            <div class="metric-card" color: #000000>
-                <h3>📊 Data Analysis</h3>
+            <div class="metric-card" style="color: #000000">
+                <h3 >📊 Data Analysis</h3>
                 <p>Explore your customer data with interactive visualizations and insights.</p>
             </div>
             """, unsafe_allow_html=True)
