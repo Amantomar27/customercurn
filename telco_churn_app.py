@@ -561,7 +561,7 @@ def main():
         
         with col2:
             st.markdown("""
-            <div class="metric-card" color: #000000>
+            <div class="metric-card" style="color: #000000">
                 <h3>🤖 Model Training</h3>
                 <p>Train machine learning models to predict customer churn accurately.</p>
             </div>
@@ -569,7 +569,7 @@ def main():
         
         with col3:
             st.markdown("""
-            <div class="metric-card" color: #000000>
+            <div class="metric-card" style="color: #000000">
                 <h3>🔮 Predictions</h3>
                 <p>Make real-time predictions for individual customers.</p>
             </div>
